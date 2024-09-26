@@ -1,0 +1,55 @@
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    width: 350px;
+    margin: 10px;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Container for the list of people */
+#people-list {
+    max-height: 400px; /* Limit height */
+    overflow-y: auto;  /* Add scroll if list is too long */
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+/* Styling each person's container */
+.person {
+    padding: 10px;
+    border-bottom: 1px solid #eaeaea;
+    margin-bottom: 10px;
+}
+
+/* Styling for the person's name */
+.person-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Styling for the person's details */
+.person div {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Optional: customize the horizontal separator */
+hr {
+    border: none;
+    border-top: 1px solid #eaeaea;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Styling the title */
+h1 {
+    font-size: 22px;
+    text-align: center;
+    color: #444;
+    margin-bottom: 15px;
+}
